@@ -1,4 +1,4 @@
-3# Versiones disponibles
+# Versiones disponibles
 # forge, mohist, fabric, vanilla, paper
 
 # Puedes instalar mohist después de instalar forge desde el menú de gestionar
@@ -16,14 +16,6 @@
 # sa		      Sudamérica (São Paulo)
 # us		      Estados unidos (Ohio)
 # us-cal-1	      Estados unidos (California)
-
-
-
-
-
-
-
-
 
 
 
@@ -60,4 +52,8 @@ flnm=download_latest_release()
 if flnm.split(".")[-1] == "msp":
 	os.system(f"chmod +x {flnm} && ./{flnm}")
 else:
-    os.system(f"python3 {flnm}")
+    os.system(f"python3 {flnm}")   
+
+  
+
+
